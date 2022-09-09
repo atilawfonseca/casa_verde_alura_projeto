@@ -1,0 +1,64 @@
+.principal__melhores-plantas {
+    background-image: url("../icons/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 125px;
+    width: 100vw;
+    height: 85vh;
+    font-family: 'Montserrat', sans-serif;
+     
+}
+.melhores-plantas__conteudo {
+    padding: 1em;
+    background-image: url("../img/imagem-hero\ 1.png");
+    background-repeat: no-repeat;
+    background-position: right 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.melhores-plantas-texto {
+    width: 60%;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: var(--cor-titulo);
+    opacity: 0.5;
+    
+}
+.melhores-plantas__titulo {
+    color: var(--cinza);
+    font-size: 22px;
+    line-height: 2em;
+    font-weight: 900;
+}
+.melhores-plantas__titulo b {
+    font-family: 'Elsie Swash Caps', cursive;
+    color: black;
+    font-size: 37px;
+}
+.conteudo__email {
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100%;
+    padding: 2em;
+    border: 1px solid var(--amarelo);
+}
+
+.conteudo__email::placeholder {
+    background-image: url("../icons/mail.svg");
+    background-repeat: no-repeat;
+    padding-left: 2em;
+}
+.melhores-plantas__link {
+    background-color: var(--amarelo);
+    padding: 2em;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+}
+

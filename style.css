@@ -1,0 +1,21 @@
+@import url(assents/css/reset.css);
+@import url(assents/css/header.css);
+@import url(assents/css/melhores-plantas.css);
+@import url(assents/css/como-conseguir.css);
+
+:root {
+    --cor-titulo: #202020;
+    --amarelo: #FFCB47;
+    --cor-background: #FFFFFF;
+    --cinza: #909090;
+}
+
+body {
+
+    /*
+        font-family: 'Elsie Swash Caps', cursive;
+        font-family: 'Montserrat', sans-serif;
+    */
+    background: url("assents/img/Linhas.svg");
+    
+}
