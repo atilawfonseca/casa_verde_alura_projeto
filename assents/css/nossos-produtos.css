@@ -1,0 +1,123 @@
+.nossos-produtos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+.nossos-produtos h2{
+    text-align: center;
+}
+.nossos-produtos__titulo-principal {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cor-titulo);
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5em;
+}
+.nossos-produtos__subtitulo {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Elsie Swash Caps', cursive;
+    margin-bottom: 1em;
+}
+
+.nossos-produtos__ofertas {
+    background-color: white;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 53% 47%;
+    
+
+}
+
+.ofertas__ajuga-reptans-img {
+    background-image: url("../img/produto-01\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+
+}
+.nossos-produtos__textos {
+    text-align: left;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    box-sizing: border-box;
+}
+.nossos-produtos__oferta-titulo {
+    font-size: 32px;
+    font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 900;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+}
+.nossos-produtos__oferta-valor {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor-titulo);
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5em;
+    margin-bottom: 1em;
+
+}
+.nossos-produtos__oferta-link {
+    text-decoration: none;
+    color: var(--amarelo);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.ofertas__Cordyline-fruticosa-img {
+    background-image: url("../img/produto-02\ 1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.ofertas__crassula-ovata-img {
+    background-image: url("../img/produto-03\ 1.png");
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+    background-size: 110%;
+    width: 100%;
+    height: 30vh;
+}
+
+.ofertas__cyperys-rotundus-img {
+    background-image: url("../img/produto-04\ 1.png");
+    background-repeat: no-repeat;
+    background-position:  15% 30%;
+    background-size: 160%;
+    width: 100%;
+    height: 30vh;
+}
+
+.ofertas__delairea-odorata-img {
+    background-image: url("../img/produto-05\ 1.png");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.ofertas__datura-metel-img {
+    background-image: url("../img/produto-06\ 1.png");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: 120%;
+    width: 100%;
+    height: 30vh;
+}

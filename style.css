@@ -2,6 +2,8 @@
 @import url(assents/css/header.css);
 @import url(assents/css/melhores-plantas.css);
 @import url(assents/css/como-conseguir.css);
+@import url(assents/css/nossos-produtos.css);
+@import url(assents/css/nossos-videos.css);
 
 :root {
     --cor-titulo: #202020;

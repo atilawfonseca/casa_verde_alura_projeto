@@ -1,0 +1,87 @@
+.nossos-videos {
+    width: 80vw;
+    margin: 1em auto;
+}
+
+.nossos-videos__titulo {
+    color: var(--cor-titulo);
+    font-size: 22px;
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}
+
+.nossos-videos__video {
+    color: var(--cor-titulo);
+    font-size: 32px;
+    font-family: 'Elsie Swash Caps', cursive;
+    text-align: center;
+    font-weight: 900;
+}
+
+.nossos-videos__plantamar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.nossos-videos__plantamar-link {
+    background-image: url("../img/Mask\ Group-1.png");
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: calc(80vw);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+
+.nossos-videos__titulo-video {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.nossos-videos__subtitulo-video {
+    font-size: 16px;
+    font-weight: 900;
+    opacity: 0.5;
+    color: var(--cor-titulo);
+}
+
+.nossos-videos__plantaverde-link{
+    background-image: url("../img/Mask\ Group-2.png");
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: calc(80vw);
+    background-color: rgba(0, 0, 0, 1);
+}
+.nossos-videos__plantamarela-link {
+    background-image: url("../img/Mask\ Group-3.png");
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: calc(80vw);
+    background-color: rgba(0, 0, 0, 1);
+}
+.nossos-videos__plantacasa-link {
+    background-image: url("../img/Mask\ Group-4.png");
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: calc(80vw);
+    background-color: rgba(0, 0, 0, 1);
+}
